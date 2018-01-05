@@ -750,7 +750,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "<br><br><br><br><br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-white-outline display-2\" href=\"https://www.facebook.com/media/set/?set=a.1679966035398301.1073741898.948838728511039&amp;type=1&amp;l=175fff81fd\" data-toolbar=\"-mbrBtnMove\">PRZY WIGILIJNYM STOLE W MALINOWIE</a>  ",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-2 btn-secondary\" href=\"https://www.facebook.com/media/set/?set=a.1679966035398301.1073741898.948838728511039&amp;type=1&amp;l=175fff81fd\" data-toolbar=\"-mbrBtnMove\">PRZY WIGILIJNYM STOLE W MALINOWIE</a>  ",
                 "overlayOpacity": "0"
               },
               {
@@ -768,7 +768,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "<br><br><br><br><br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-white-outline display-2\" href=\"https://www.facebook.com/media/set/?set=a.1674614155933489.1073741897.948838728511039&amp;type=1&amp;l=7f06dca66e\" data-toolbar=\"-mbrBtnMove\">ŚWIĄTECZNY POCZĘSTUNEK</a>  ",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-2 btn-secondary\" href=\"https://www.facebook.com/media/set/?set=a.1674614155933489.1073741897.948838728511039&amp;type=1&amp;l=7f06dca66e\" data-toolbar=\"-mbrBtnMove\">ŚWIĄTECZNY POCZĘSTUNEK</a>  ",
                 "overlayOpacity": "0"
               },
               {
@@ -786,7 +786,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "<br><br><br><br><br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-white-outline display-2\" href=\"https://www.facebook.com/media/set/?set=a.1667572416637663.1073741896.948838728511039&amp;type=1&amp;l=ef3a8e92b7\" data-toolbar=\"-mbrBtnMove\">FINAŁ SZLACHETNEJ PACZKI</a>  ",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-2 btn-secondary\" href=\"https://www.facebook.com/media/set/?set=a.1667572416637663.1073741896.948838728511039&amp;type=1&amp;l=ef3a8e92b7\" data-toolbar=\"-mbrBtnMove\">FINAŁ SZLACHETNEJ PACZKI</a>  ",
                 "overlayOpacity": "0"
               }
             ]
