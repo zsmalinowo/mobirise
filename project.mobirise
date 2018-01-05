@@ -731,14 +731,14 @@
           "_global": false,
           "_once": false,
           "_params": {
-            "slides__autoplay": false,
-            "slides__autoplayInterval": 4000,
+            "slides__autoplay": true,
+            "slides__autoplayInterval": "4000",
             "slides__showBullets": true,
             "slides": [
               {
                 "image": "@THEME_PATH@/components/_images/carousel/1.jpg",
                 "active": true,
-                "showButtons": false,
+                "showButtons": true,
                 "showText": false,
                 "showTitle": false,
                 "playVideo": true,
@@ -769,7 +769,8 @@
                 "overlay": true,
                 "contentAlign": "right",
                 "text": "",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>",
+                "overlayOpacity": "0"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/25531895-1679968045398100-4656367020683617350-o-2000x1324.jpg",
@@ -786,7 +787,8 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success display-4\" href=\"https://www.facebook.com/media/set/?set=a.1679966035398301.1073741898.948838728511039&amp;type=1&amp;l=175fff81fd\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ZDJĘCIA</a> "
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  display-4 btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ZDJĘCIA</a>",
+                "overlayOpacity": "0"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/-dsc0564-2000x1324.jpg",
@@ -803,7 +805,8 @@
                 "overlay": true,
                 "contentAlign": "right",
                 "text": "",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info display-4\" href=\"https://www.facebook.com/media/set/?set=a.1667572416637663.1073741896.948838728511039&amp;type=1&amp;l=ef3a8e92b7\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ZDJĘCIA</a> "
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info display-4\" href=\"https://www.facebook.com/media/set/?set=a.1667572416637663.1073741896.948838728511039&amp;type=1&amp;l=ef3a8e92b7\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ZDJĘCIA</a> ",
+                "overlayOpacity": "0"
               },
               {
                 "image": "@THEME_PATH@/components/_images/carousel/2.jpg",
