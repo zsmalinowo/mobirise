@@ -3,7 +3,7 @@
     "name": "My Site",
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 34,
+    "uniqCompNum": 35,
     "versionPublish": "4.5.4",
     "theme": {
       "name": "mobirise4",
@@ -755,7 +755,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "<br><br><br><br><br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-secondary display-4\" href=\"https://www.facebook.com/media/set/?set=a.1679966035398301.1073741898.948838728511039&amp;type=1&amp;l=175fff81fd\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-music mbr-iconfont mbr-iconfont-btn\"></span>PRZY WIGILIJNYM STOLE W MALINOWIE</a>  ",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-secondary display-4\" href=\"https://www.facebook.com/media/set/?set=a.1679966035398301.1073741898.948838728511039&amp;type=1&amp;l=175fff81fd\" data-toolbar=\"-mbrBtnMove\">PRZY WIGILIJNYM STOLE W MALINOWIE</a>  ",
                 "overlayOpacity": "0"
               },
               {
@@ -773,7 +773,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "<br><br><br><br><br><br><br><br><br><br><br><br><br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-secondary\" href=\"https://www.facebook.com/media/set/?set=a.1674614155933489.1073741897.948838728511039&amp;type=1&amp;l=7f06dca66e\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-hot-cup mbr-iconfont mbr-iconfont-btn\"></span>ŚWIĄTECZNY POCZĘSTUNEK</a>  ",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-secondary\" href=\"https://www.facebook.com/media/set/?set=a.1674614155933489.1073741897.948838728511039&amp;type=1&amp;l=7f06dca66e\" data-toolbar=\"-mbrBtnMove\">ŚWIĄTECZNY POCZĘSTUNEK</a>  ",
                 "overlayOpacity": "0"
               },
               {
@@ -791,11 +791,52 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-secondary\" href=\"https://www.facebook.com/media/set/?set=a.1667572416637663.1073741896.948838728511039&amp;type=1&amp;l=ef3a8e92b7\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-gift mbr-iconfont mbr-iconfont-btn\"></span>FINAŁ SZLACHETNEJ PACZKI</a>  ",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-secondary\" href=\"https://www.facebook.com/media/set/?set=a.1667572416637663.1073741896.948838728511039&amp;type=1&amp;l=ef3a8e92b7\" data-toolbar=\"-mbrBtnMove\">FINAŁ SZLACHETNEJ PACZKI</a>  ",
                 "overlayOpacity": "0"
               }
             ]
           }
+        },
+        {
+          "_styles": {
+            ".google-map": {
+              "height": "25rem",
+              "position": "relative",
+              "iframe": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "font-family": "Montserrat",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                },
+                "&::after": {}
+              }
+            }
+          },
+          "_name": "map1",
+          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"ChIJH6RpV7K6HUcRcW10SvKyw-Y\" value=\"Zespół Szkół Malinowo Działdowo\n\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
+          "_cid": "qFTUklVt57",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "map1-y"
         },
         {
           "_name": "footer1",
