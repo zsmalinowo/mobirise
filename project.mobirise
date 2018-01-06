@@ -796,7 +796,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/24291852-1657505294311042-293408047768488642-o-1984x1488.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -809,7 +809,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "<br><br><br><br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-7 btn-black\" href=\"https://www.facebook.com/media/set/?set=a.1657504840977754.1073741895.948838728511039&amp;type=1&amp;l=1ab6c078a8\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Trening asertywności</a>  ",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-7 btn-secondary\" href=\"https://www.facebook.com/media/set/?set=a.1657504840977754.1073741895.948838728511039&amp;type=1&amp;l=1ab6c078a8\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Trening asertywności</a>  ",
                 "overlayOpacity": "0",
                 "overlayColor": "#7f1933"
               },
@@ -829,6 +829,24 @@
                 "contentAlign": "center",
                 "text": "<br><br><br><br>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-secondary display-7\" href=\"https://www.facebook.com/media/set/?set=a.1653980961330142.1073741894.948838728511039&amp;type=1&amp;l=6f2e280e33\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Warsztaty kelnerskie</a>  ",
+                "overlayOpacity": "0"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/pc130035-1920x1080.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-1",
+                "customStyle2": "display-4",
+                "customStyle3": "display-7",
+                "title": "",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "<br><br><br><br>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-secondary display-7\" href=\"https://www.facebook.com/media/set/?set=a.1694840570577514.1073741899.948838728511039&amp;type=1&amp;l=986172c25e\" data-toolbar=\"-mbrBtnMove\">AUTOPREZENTACJA</a>  ",
                 "overlayOpacity": "0"
               }
             ]
