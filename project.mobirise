@@ -3,7 +3,7 @@
     "name": "My Site",
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 36,
+    "uniqCompNum": 37,
     "versionPublish": "4.5.4",
     "theme": {
       "name": "mobirise4",
@@ -796,7 +796,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/24291852-1657505294311042-293408047768488642-o-1984x1488.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -809,12 +809,13 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "<br><br><br><br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-secondary display-7\" href=\"https://www.facebook.com/media/set/?set=a.1657504840977754.1073741895.948838728511039&amp;type=1&amp;l=1ab6c078a8\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Trening asertywności</a>  ",
-                "overlayOpacity": "0"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-7 btn-black\" href=\"https://www.facebook.com/media/set/?set=a.1657504840977754.1073741895.948838728511039&amp;type=1&amp;l=1ab6c078a8\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Trening asertywności</a>  ",
+                "overlayOpacity": "0",
+                "overlayColor": "#7f1933"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/23926205-1653985081329730-6042793041577352049-o-2000x1374.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -863,6 +864,38 @@
           "_once": false,
           "_params": {},
           "_anchor": "video2-z"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".testimonial-text": {
+              "font-style": "italic",
+              "color": "#676767",
+              "font-weight": "300"
+            },
+            ".mbr-author-name": {
+              "font-weight": "bold",
+              "color": "#232"
+            },
+            ".mbr-author-desc": {
+              "color": "#232"
+            }
+          },
+          "_name": "testimonials3",
+          "_customHTML": "<section class=\"testimonials3\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"130\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n        <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\">\n        <input type=\"color\" title=\"Background Color\" value=\"#f3f4f6\" selected>\n        <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\"> \n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".testimonial-text\">\n                   Uczniowie Zespołu Szkół w Malinowie - pierwszy raz spotykam się z tak sumiennymi ludźmi, którzy tak fajnie wykonują swoje obowiązki...<br>To widać wpływ szkoły, kształcicie super kadry dla hotelarzy.</p>\n                <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\">\n                   Marek Pawłowicz</p>\n                <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\">\n                   DYREKTOR PAŁACU MORTĘGI HOTEL &amp; SPA ****</p>\n            </div>\n\n            <div class=\"mbr-figure pl-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <a href=\"https://www.youtube.com/watch?v=f_O_zMwUqFg\"><img src=\"@PROJECT_PATH@/assets/images/2018-01-06-123142-640x423.jpg\" alt title></a>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qFWGX3jYgk",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "testimonials3-10"
         },
         {
           "_name": "footer1",
