@@ -1998,6 +1998,18 @@ body {
 .cid-qFTKNKCgH7 P {
   color: #000000;
 }
+.cid-qFU1x1dGGQ {
+  background: #ffffff;
+}
+.cid-qFU1x1dGGQ .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-qFU1x1dGGQ .video-block {
+    width: 100% !important;
+  }
+}
 .cid-qFWGX3jYgk {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -2031,18 +2043,6 @@ body {
 }
 .cid-qFWYRhEQpJ .mbr-author-desc {
   color: #232;
-}
-.cid-qFU1x1dGGQ {
-  background: #ffffff;
-}
-.cid-qFU1x1dGGQ .video-block {
-  margin: auto;
-  width: 100% !important;
-}
-@media (max-width: 768px) {
-  .cid-qFU1x1dGGQ .video-block {
-    width: 100% !important;
-  }
 }
 .cid-qFwr8qs8gK {
   padding-top: 60px;
