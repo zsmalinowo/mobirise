@@ -331,7 +331,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/-dsc0289-2000x1599.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -345,6 +345,24 @@
                 "contentAlign": "center",
                 "text": "W piątek 27.04.2018 w Zespole Szkół w Malinowie odbyła się uroczystość pożegnaia uczniów klas IV Technikum",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success display-4\" href=\"https://www.youtube.com/watch?v=hvSDD7vb4wY\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">FILM</a> ",
+                "overlayOpacity": "0.3"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-dsc0289-2000x1599.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=-O5_dCX02zU",
+                "customStyle1": "display-1",
+                "customStyle2": "display-5",
+                "customStyle3": "display-4",
+                "title": "Warszawa od kuchni",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "Wycieczka kulinarna &nbsp;do Warszawy uczniów klas pierwszych i drugich Technikum w Malinowie.\n<br>\n<br><br>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success display-4\" href=\"https://www.youtube.com/watch?v=-O5_dCX02zU\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">FILM</a> ",
                 "overlayOpacity": "0.3"
               },
               {
