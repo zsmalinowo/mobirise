@@ -9346,6 +9346,18 @@ body {
 .cid-qS1G7sAPgK .mbr-section-subtitle {
   color: #000000;
 }
+.cid-r8DTNYIDp2 {
+  background: #ffffff;
+}
+.cid-r8DTNYIDp2 .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-r8DTNYIDp2 .video-block {
+    width: 100% !important;
+  }
+}
 .cid-qFwuWXGaHd .navbar {
   padding: .5rem 0;
   background: #333333;
